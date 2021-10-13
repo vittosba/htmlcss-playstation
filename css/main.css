@@ -1,0 +1,27 @@
+/* UTILITIES */
+.site-btn {
+    border-radius: 20px;
+}
+
+/* HEADER */
+header .site-logo {
+    background: #000;
+    text-align: right;
+}
+
+header .site-logo img {
+    height: 1rem;
+}
+
+header .site-brand img {
+    height: 3rem;
+}
+
+header nav .icon {
+    font-size: 1.25rem;
+}
+
+header nav .site-dropdown-angle {
+    font-size: 0.75rem;
+    color: rgb(99, 97, 97);
+}
