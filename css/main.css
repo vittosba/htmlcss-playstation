@@ -3,6 +3,14 @@
     border-radius: 20px;
 }
 
+.h-450px {
+    height: 450px;
+}
+
+body {
+    padding-top: 110px;
+}
+
 /* HEADER */
 header .site-logo {
     background: #000;
@@ -24,4 +32,16 @@ header nav .icon {
 header nav .site-dropdown-angle {
     font-size: 0.75rem;
     color: rgb(99, 97, 97);
+}
+
+/* MAIN */
+/* Hero */
+.hero {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center 0;
+    background-size: cover;
+}
+
+.hero .hero-logo {
+    max-width: 50%;
 }
