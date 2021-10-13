@@ -36,12 +36,22 @@ header nav .site-dropdown-angle {
 
 /* MAIN */
 /* Hero */
-.hero {
+.hero-up {
     background-image: url(../img/jumbo-bg.png);
     background-position: center 0;
     background-size: cover;
 }
 
-.hero .hero-logo {
+.hero-up .hero-logo {
     max-width: 50%;
+}
+
+.hero-down .site-card:hover {
+    box-shadow: 0 0 0 0.15rem #1A72CE;
+    border-radius: 15px;
+}
+
+.hero-down .site-card img {
+    width: 100%;
+    border-radius: 15px;
 }
