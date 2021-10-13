@@ -7,6 +7,10 @@
     height: 450px;
 }
 
+.h-650px {
+    height: 650px;
+}
+
 .site-color-blue {
     color: #1A72CE;
 }
@@ -40,13 +44,19 @@ header nav .site-dropdown-angle {
 
 /* MAIN */
 /* Hero */
-.hero-up {
+.hero.game-1 .hero-up {
     background-image: url(../img/jumbo-bg.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero.game-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center 0;
     background-size: cover;
 }
 
-.hero-up .hero-logo {
+.hero .hero-logo {
     max-width: 50%;
 }
 
