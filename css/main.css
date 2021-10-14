@@ -74,6 +74,22 @@ header nav .site-dropdown-angle {
     width: 100%;
 }
 
+/* New releases */
+.new-releases {
+    background: #1F1F1F;
+}
+
+.new-releases .card-image img {
+    border-radius: 15px;
+}
+
+
+
+
+/* *************
+    RESPONSIVE
+   ************* */
+
 @media screen and (min-width: 768px) {
     .playstation-5 .card-image .small-image {
         width: 50%;
