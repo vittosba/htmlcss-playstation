@@ -15,6 +15,12 @@
     color: #1A72CE;
 }
 
+.color-grey {
+    color: #aaa;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 body {
     padding-top: 110px;
 }
@@ -70,9 +76,13 @@ header nav .site-dropdown-angle {
     border-radius: 15px;
 }
 
+
+/* Playstation 5 */
 .playstation-5 .card-image .small-image {
     width: 100%;
 }
+
+
 
 /* New releases */
 .new-releases {
@@ -83,6 +93,10 @@ header nav .site-dropdown-angle {
     border-radius: 15px;
 }
 
+/* Hero psplus */
+.hero .psplus {
+    background: #BEBCBB;
+}
 
 
 
