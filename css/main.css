@@ -108,6 +108,23 @@ header nav .site-dropdown-angle {
     background: #161C3B;
 }
 
+/* FOOTER */
+footer {
+    background: #00439C;
+}
+
+footer .site-logo {
+    height: 5rem;
+}
+
+footer .site-language {
+    height: 1.25rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
 
 
 /* *************
