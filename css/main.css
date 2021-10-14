@@ -3,6 +3,11 @@
     border-radius: 20px;
 }
 
+.btn-grey-blue {
+    background: #D9DADC;
+    color: #1A72CE;
+}
+
 .h-450px {
     height: 650px;
 }
@@ -94,7 +99,7 @@ header nav .site-dropdown-angle {
 }
 
 /* Hero psplus */
-.hero .psplus {
+.hero.psplus {
     background: #BEBCBB;
 }
 
