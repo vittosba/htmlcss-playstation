@@ -4,7 +4,7 @@
 }
 
 .h-450px {
-    height: 450px;
+    height: 650px;
 }
 
 .h-650px {
@@ -46,13 +46,13 @@ header nav .site-dropdown-angle {
 /* Hero */
 .hero.game-1 .hero-up {
     background-image: url(../img/jumbo-bg.png);
-    background-position: center center;
+    background-position: center 0;
     background-size: cover;
 }
 
 .hero.game-2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: center 0;
+    background-position: center;
     background-size: cover;
 }
 
@@ -68,4 +68,14 @@ header nav .site-dropdown-angle {
 .hero-down .site-card img {
     width: 100%;
     border-radius: 15px;
+}
+
+.playstation-5 .card-image .small-image {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .playstation-5 .card-image .small-image {
+        width: 50%;
+    }
 }
