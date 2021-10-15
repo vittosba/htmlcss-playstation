@@ -109,6 +109,15 @@ header nav .site-dropdown-angle {
     border-bottom: 2px solid #1A72CE;
 }
 
+.playstation-5 .overlay:first-child::before {
+    background-color: rgba(255, 255, 255, .0);
+}
+
+/* effects ps5 */
+.playstation-5 .card-image:hover.overlay::before{
+    background-color: rgba(255, 255, 255, .0);
+}
+
 
 
 /* New releases */
